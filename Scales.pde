@@ -10,17 +10,17 @@ boolean shift = true;
 {
   for(int x = 550; x >= 60; x -= 30)
   {
-    if(shift==true)
-    ellipse(x-15, y, 30, 60);
-    else
-    ellipse(x, y, 30, 60);
+  if(shift==true)
+  ellipse(x-15, y, 30, 60);
+  else
+  ellipse(x, y, 30, 60);
   }
   if(shift == true)
-    shift = false;
-    else 
-    shift = true;
+  shift = false;
+  else
+  shift = true;
 }
-  
+ 
  strokeWeight(4);
 stroke(#2D5508);
 noFill();
@@ -43,12 +43,12 @@ line(120,0,-95,0);
 
 popMatrix();
 noFill();
-circle(450,270,200);
+ellipse(450,270,200,200);
 fill(#8AD5FC);
-circle(420,230,150);
+ellipse(420,230,150,150);
 noStroke();
 fill(#8AD5FC);
-circle(410,215,145);
+ellipse(410,215,145,145);
 fill(#8AD5FC);
 strokeWeight(4);
 stroke(#2D5508);
@@ -70,24 +70,28 @@ ellipse(130,290,20,30);
 
 noStroke();
 fill(#8AD5FC);
-circle(390,190,145);
-circle(350,160,145);
-circle(320,150,145);
-circle(300,145,145);
-circle(230,150,145);
-circle(130,145,145);
-circle(100,165,145);
-circle(100,165,145);
-circle(70,190,145);
-circle(50,210,145);
-circle(60,435,145);
-circle(260,435,145);
-circle(470,445,145);
-circle(550,415,145);
-circle(550,125,145);
-circle(580,100,145);
-circle(540,100,145);
-circle(540,30,145);
+ellipse(390,190,145,145);
+ellipse(350,160,145,145);
+ellipse(320,150,145,145);
+ellipse(300,145,145,145);
+ellipse(230,150,145,145);
+ellipse(130,145,145,145);
+ellipse(100,165,145,145);
+ellipse(100,165,145,145);
+ellipse(70,190,145,145);
+ellipse(50,210,145,145);
+ellipse(60,435,145,145);
+ellipse(260,435,145,145);
+ellipse(470,445,145,145);
+ellipse(550,415,145,145);
+ellipse(550,125,145,145);
+ellipse(580,100,145,145);
+ellipse(540,100,145,145);
+ellipse(540,30,145,145);
+ellipse(5,300,100,100);
+ellipse(600,300,100,200);
+ellipse(280,400,100,90);
+ellipse(570,220,55,80);
 }
 void scale(int x, int y) {
 ellipse(x,y,30,40);
